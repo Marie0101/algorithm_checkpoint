@@ -1,0 +1,23 @@
+START
+
+Read sentence
+
+characters = 0
+words = 1
+vowels = 0
+
+FOR each character in sentence
+    characters = characters + 1
+
+    IF character is a space
+        words = words + 1
+
+    IF character is a vowel (a, e, i, o, u)
+        vowels = vowels + 1
+END FOR
+
+Display characters
+Display words
+Display vowels
+
+END
